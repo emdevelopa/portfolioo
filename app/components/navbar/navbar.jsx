@@ -24,7 +24,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="/" className="group hover:text-[#C778DD] hover:underline">
+            <a href="/contacts" className="group hover:text-[#C778DD] hover:underline">
               <span className="text-[#C778DD] group-hover:text-[#fff] ">#</span>
               contacts
             </a>
