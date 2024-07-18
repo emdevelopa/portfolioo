@@ -15,7 +15,7 @@ const Skills = () => {
             <div className="flex-grow lg:w-[22em] h-[2px] bg-[#C778DD] hidden lg:block"></div>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row justify-between items-center gap-8">
+        <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-8">
           <div className="flex justify-center w-full lg:w-auto">
             <Image src={group36} alt="group" className="w-full max-w-sm" />
           </div>
