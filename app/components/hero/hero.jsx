@@ -16,9 +16,11 @@ const Hero = () => {
           meet creativity
         </p>
         <div>
-          <button className="px-4 py-2 md:px-6 md:py-3 border border-[#C778DD] font-semibold hover:text-[#C778DD] hover:border-gray-400">
-            Contact me!!
-          </button>
+          <a href="/contacts">
+            <button className="px-4 py-2 md:px-6 md:py-3 border border-[#C778DD] font-semibold hover:text-[#C778DD] hover:border-gray-400">
+              Contact me!!
+            </button>
+            </a>
         </div>
       </div>
       <div className="w-full lg:w-1/2 h-64 md:h-80 lg:h-[30em] bg-black flex justify-center items-center">
