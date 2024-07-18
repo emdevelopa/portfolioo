@@ -3,7 +3,6 @@ import Image from "next/image";
 import work from "./works";
 
 export default function ProjectCard({ end }) {
-  console.log(end);
   return (
     <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {work.slice(0, end).map((item) => (

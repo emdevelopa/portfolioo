@@ -1,5 +1,4 @@
 export default function Aboutme({hideBtn}) {
-  console.log(hideBtn);
   return (
     <section className="flex flex-col lg:flex-row justify-between gap-8 lg:gap-16 md:px-8 lg:px-4">
       <div className="flex flex-col gap-6 w-full lg:w-1/2">
