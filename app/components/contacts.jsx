@@ -20,8 +20,7 @@ export default function ContactSection() {
       <div className="border p-4 w-fit lg:w-fit">
         <h1 className="font-bold text-lg">Message me here</h1>
         <a
-          href={`https://wa.me/2348104515305?text=${encodeURIComponent(
-            "Hello, thanks for messaging me."
+          href={`https://wa.me/2348104515305
           )}`}
           className="group hover:text-[#C778DD]"
           rel="noopener noreferrer"
