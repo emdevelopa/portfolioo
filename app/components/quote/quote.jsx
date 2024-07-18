@@ -11,7 +11,7 @@ const Quote = () => {
         className="w-8 h-8 absolute top-[-10%] left-4 md:left-8"
       />
       <p className="text-sm md:text-base lg:text-lg">
-        With great power comes great electricity bill
+        Be strong no matter what you going through
       </p>
       <Image
         src={exclam}
