@@ -1,11 +1,17 @@
 import ez from "../assets/ez.png";
 import moviebox from "../assets/moviebox.png";
 import good4me from "../assets/good4me.png";
+import metabnb from "../assets/metabnb.png";
+import vouch from "../assets/vouch.png";
+import architect from "../assets/architect.png";
+import shopifyAdmin from "../assets/shopifyAdmin.png";
+
+
 
 const works = [
   {
     name: "EZHEDGEFUNDS",
-    description: "A investment web app",
+    description: "An investment web app",
     stacks: "ReactJS Vite Node(expressJS) MySQL",
     image: ez,
     link: "https://user.ezhedgefunds.com/dashboard",
@@ -25,11 +31,32 @@ const works = [
     link: "https://good4me.netlify.app/",
   },
   {
-    name: "EZHEDGEFUNDS",
-    description: "A investment web app",
-    stacks: "HTML SCSS PYTHON FLASK",
-    image: ez,
-    link: "https://www.sportybet.com/ng/my_accounts/withdraw",
+    name: "METABNB",
+    description: "A static NFT website",
+    stacks: "ReactJS CSS",
+    image: metabnb,
+    link: "https://metabnbem.netlify.app/",
+  },
+  {
+    name: "VOUCH",
+    description: "A waitlist webpage",
+    stacks: "HTML Javascript CSS",
+    image: vouch,
+    link: "https://vouch-waitlist-iota.vercel.app/",
+  },
+  {
+    name: "ARCHITECT",
+    description: "An Architecture website",
+    stacks: "HTML Javascript CSS",
+    image: architect,
+    link: "https://emdevelopa.github.io/Architect/index.html",
+  },
+  {
+    name: "SHOPIFY_ADMIN",
+    description: "A simple shopify Admin Clone challenge",
+    stacks: "HTML Javascript CSS",
+    image: shopifyAdmin,
+    link: "https://emdevelopa.github.io/shopifyAdmin/",
   },
 ];
 
