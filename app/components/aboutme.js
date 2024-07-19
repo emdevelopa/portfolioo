@@ -6,8 +6,8 @@ export default function Aboutme({hideBtn}) {
           Hello, I’m Emmanuel!
         </p>
         <p className="text-[#ABB2BF] text-sm md:text-base">
-          I’m a self-taught fullstack website/web app developer based in Kyiv,
-          Ukraine. I can develop responsive websites from scratch and raise them
+          I’m a self-taught fullstack website/web app developer based in Ibadan,
+          Nigeria. I can develop responsive websites and web apps from scratch and raise them
           into modern user-friendly web experiences.
         </p>
         <p className="text-[#ABB2BF] text-sm md:text-base">
