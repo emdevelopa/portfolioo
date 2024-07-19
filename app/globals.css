@@ -33,3 +33,60 @@ body {
     text-wrap: balance;
   }
 }
+
+.stars {
+  position: relative;
+  overflow: hidden;
+}
+
+.star-sky {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: -2;
+}
+
+.star-sky::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200%;
+  height: 200%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  animation: skyAnimation 60s linear infinite;
+}
+
+@keyframes skyAnimation {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.star-sky::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(white 1px, transparent 1px);
+  background-size: 50px 50px;
+  animation: twinkling 2s infinite alternate;
+}
+
+@keyframes twinkling {
+  0% {
+    opacity: 1;
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    opacity: 0.5;
+    filter: hue-rotate(360deg);
+  }
+}

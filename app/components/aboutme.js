@@ -31,8 +31,9 @@ export default function Aboutme({hideBtn}) {
           ""
         )}
       </div>
-      <div className="w-full lg:w-1/2 h-64 lg:h-80  bg-[#00000067] rounded-2xl">
-        <BirdsPage/>
+      <div className="w-full lg:w-1/2 h-64 md:h-80 lg:h-[30em] bg-[#00000067] rounded-2xl flex justify-center items-center stars relative">
+        <BirdsPage />
+        <div className="star-sky"></div>
       </div>
     </section>
   );

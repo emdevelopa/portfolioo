@@ -3,9 +3,8 @@ import React from "react";
 import BirdsPage from "../threeDFace";
 
 
-
-
 const Hero = () => {
+  
   return (
     <section className="flex flex-col lg:flex-row gap-8 lg:gap-0 p-4 md:p-8">
       <div className="w-full lg:w-1/2 flex flex-col gap-4 lg:gap-8">
@@ -27,10 +26,9 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <div className="w-full lg:w-1/2 h-64 md:h-80 lg:h-[30em] bg-[#00000067] rounded-2xl flex justify-center items-center">
-       
+      <div className="w-full lg:w-1/2 h-64 md:h-80 lg:h-[30em] bg-[#00000067] rounded-2xl flex justify-center items-center stars relative">
         <BirdsPage />
-        
+        <div className="star-sky"></div>
       </div>
     </section>
   );
