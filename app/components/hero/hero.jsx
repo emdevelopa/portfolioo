@@ -1,6 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import ThreeScene from "../threeDFace";
+import BirdsPage from "../threeDFace";
+
+
+
 
 const Hero = () => {
   return (
@@ -24,9 +27,9 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <div className="w-full lg:w-1/2 h-64 md:h-80 lg:h-[30em] bg-black flex justify-center items-center">
-        {/* <Image src={codinPC} alt="Coding PC" width={600} height={600} /> */}
-        <ThreeScene />
+      <div className="w-full lg:w-1/2 h-64 md:h-80 lg:h-[30em] bg-[#00000067] rounded-2xl flex justify-center items-center">
+       
+        <BirdsPage />
         
       </div>
     </section>

@@ -1,5 +1,4 @@
-import Image from "next/image";
-import discord from "../assets/Discord.png";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faDiscord,
