@@ -53,7 +53,7 @@ const works = [
   },
   {
     name: "SHOPIFY_ADMIN",
-    description: "A simple shopify Admin Clone challenge",
+    description: "A shopify Admin Clone challenge",
     stacks: "HTML Javascript CSS",
     image: shopifyAdmin,
     link: "https://emdevelopa.github.io/shopifyAdmin/",
