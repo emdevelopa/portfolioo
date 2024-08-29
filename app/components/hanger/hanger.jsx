@@ -6,7 +6,7 @@ const SocialHanger = () => {
   return (
     <section className="fixed w-full flex flex-col  top-0">
       <div className="flex flex-col items-center absolute left-10 max-md-[900px]:left-0">
-        <div className="w-[1px] h-[10em] bg-[#ffffff52]"></div>
+        <div className="w-[1px] h-[10em] bg-[#ffffff52] max-md-[900px]:h-[1em]"></div>
         <a
           href="https://github.com/emdevelopa"
           className="w-[2em] h-[2em] hover:border border-[#C778DD] rounded-[50%] p-1 flex justify-center items-center"
