@@ -85,6 +85,7 @@ body {
   0% {
     opacity: 1;
     filter: hue-rotate(0deg);
+/* color: #ffffff34; */
   }
   100% {
     opacity: 0.5;
