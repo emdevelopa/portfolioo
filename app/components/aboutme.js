@@ -32,15 +32,25 @@ export default function Aboutme({hideBtn}) {
           ""
         )}
       </div>
-      <div className="w-full lg:w-1/2 h-64 md:h-80 lg:h-[30em] bg-[#00000067] rounded-2xl flex justify-center items-center stars relative">
-        <Image width={300} height={300} src={"/believe.jpeg"} />
+      <div className="w-full lg:w-1/2 h-64 md:h-80 lg:h-[30em] bg-[#00000067] rounded-2xl flex justify-center stars ">
         <Image
           width={300}
           height={300}
-          className="w-[6em] h-"
+          className="w-[33%] h-"
+          src={"/believe.jpeg"}
+        />
+        <Image
+          width={300}
+          height={300}
+          className="w-[34%] h-"
           src={"/Focus.jpeg"}
         />
-        <Image width={300} height={300} src={"/never.jpeg"} />
+        <Image
+          width={300}
+          height={300}
+          className="w-[33%] h-"
+          src={"/never.jpeg"}
+        />
         {/* <BirdsPage />
         <div className="star-sky"></div> */}
       </div>

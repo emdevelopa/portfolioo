@@ -26,16 +26,26 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <div className="w-full lg:w-1/2 h-64 md:h-80 lg:h-[30em] bg-[#00000067] rounded-2xl flex justify-center items-center stars relative">
+      <div className="w-full lg:w-1/2 h-64 md:h-80 lg:h-[30em] bg-[#00000067] rounded-2xl flex stars justify-center">
         {/* <BirdsPage /> */}
-        <Image width={300} height={300} src={"/motivation.jpeg"} />
+        <Image
+          width={300}
+          className="w-[33%] h-"
+          height={300}
+          src={"/motivation.jpeg"}
+        />
         <Image
           width={300}
           height={300}
-          className="w-[6em] h-"
+          className="w-[34%] h-"
           src={"/_ .jpeg"}
         />
-        <Image width={300} height={300} src={"/StayTrue.jpeg"} />
+        <Image
+          width={300}
+          height={300}
+          className="w-[33%] h-"
+          src={"/StayTrue.jpeg"}
+        />
         {/* <div className="star-sky"></div> */}
       </div>
     </section>
