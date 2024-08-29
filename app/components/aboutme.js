@@ -3,7 +3,7 @@ import BirdsPage from "./threeDFace";
 
 export default function Aboutme({hideBtn}) {
   return (
-    <section className="flex flex-col lg:flex-row justify-between gap-8 lg:gap-16 md:px-8 lg:px-4">
+    <section className="flex flex-col lg:flex-row justify-between gap-8 lg:gap-2 md:px-8 lg:px-4">
       <div className="flex flex-col gap-6 w-full lg:w-1/2">
         <p className="text-[#ABB2BF] text-sm md:text-base">
           Hello, I’m Emmanuel!
