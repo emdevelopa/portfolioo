@@ -13,7 +13,7 @@ const Hero = () => {
           <span className="text-[#C778DD]">Full-Stack Website Developer</span>{" "}
           and <span className="text-[#C778DD]">Web App Developer</span>
         </h1>
-        <p className="text-[#ABB2BF] text-base md:text-[14px]">
+        <p className="text-[#ABB2BF] text-base md:text-[18px]">
           He crafts responsive websites where technologies{" "}
           <br className="hidden md:block" />
           meet creativity
@@ -35,7 +35,7 @@ const Hero = () => {
           className="w-[6em] h-"
           src={"/_ .jpeg"}
         />
-        <Image width={300} height={300} src={"/code.jpeg"} />
+        <Image width={300} height={300} src={"/StayTrue.jpeg"} />
         {/* <div className="star-sky"></div> */}
       </div>
     </section>

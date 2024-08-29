@@ -25,7 +25,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-  font-family: 'Fira Code', monospace; 
+  /* font-family: 'Fira Code', monospace;  */
+  font-family: 'Satoshi', sans-serif;
 }
 
 @layer utilities {
