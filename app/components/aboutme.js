@@ -1,3 +1,4 @@
+import Image from "next/image";
 import BirdsPage from "./threeDFace";
 
 export default function Aboutme({hideBtn}) {
@@ -32,8 +33,16 @@ export default function Aboutme({hideBtn}) {
         )}
       </div>
       <div className="w-full lg:w-1/2 h-64 md:h-80 lg:h-[30em] bg-[#00000067] rounded-2xl flex justify-center items-center stars relative">
-        <BirdsPage />
-        <div className="star-sky"></div>
+        <Image width={300} height={300} src={"/believe.jpeg"} />
+        <Image
+          width={300}
+          height={300}
+          className="w-[6em] h-"
+          src={"/Focus.jpeg"}
+        />
+        <Image width={300} height={300} src={"/never.jpeg"} />
+        {/* <BirdsPage />
+        <div className="star-sky"></div> */}
       </div>
     </section>
   );
