@@ -13,8 +13,8 @@ const Hero = () => {
           <span className="text-[#C778DD]">Full-Stack Website Developer</span>{" "}
           and <span className="text-[#C778DD]">Web App Developer</span>
         </h1>
-        <p className="text-[#ABB2BF] text-base md:text-[14px]">
-          He crafts responsive websites where technologies{" "}
+        <p className="text-customBlue text-base md:text-[14px]">
+          He crafts responsive websites where technologieC778DDs{" "}
           <br className="hidden md:block" />
           meet creativity
         </p>
@@ -27,7 +27,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="w-full lg:w-1/2 h-64 md:h-80 lg:h-[30em] bg-[#00000067] rounded-2xl flex justify-center items-center stars relative">
-        <BirdsPage />
+        {/* <BirdsPage />  */}
         <div className="star-sky"></div>
       </div>
     </section>

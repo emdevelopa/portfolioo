@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 40, 44, 51; /* Updated to match #282C33 */
-  --background-end-rgb: 40, 44, 51;   /* Updated to match #282C33 */
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 40, 44, 51;
+  --background-end-rgb: 40, 44, 51;  
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 40, 44, 51; /* Updated to match #282C33 */
-    --background-end-rgb: 40, 44, 51;   /* Updated to match #282C33 */
+    --background-start-rgb: 40, 44, 51;
+    --background-end-rgb: 40, 44, 51;  
   }
 }
 

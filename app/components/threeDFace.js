@@ -1,5 +1,5 @@
 // components/ThreeScene.js
-"use client"
+"use client";
 import { Suspense, useMemo } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
@@ -43,7 +43,8 @@ export default function BirdsPage() {
       <OrbitControls />
       <Suspense fallback={null}>
         {birds.map((props) => (
-          <Bird {...props} key={props.key} />
+          <></>
+          // <Bird {...props} key={props.key} />
         ))}
       </Suspense>
     </Canvas>
