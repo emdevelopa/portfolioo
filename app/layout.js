@@ -9,7 +9,7 @@ import Footer from "./components/footer/footer";
 // const firaCode = Fira_Code({ subsets: ["latin"] }); // Importing Fira Code
 
 export const metadata = {
-  title: "EM-DEV",
+  title: "EM-DEV(#SOLO_DEV)",
   description: "my personal portfolio",
 };
 
