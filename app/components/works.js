@@ -5,16 +5,33 @@ import metabnb from "../assets/metabnb.png";
 import vouch from "../assets/vouch.png";
 import architect from "../assets/architect.png";
 import shopifyAdmin from "../assets/shopifyAdmin.png";
+import swift from "../assets/swift.png";
+import custos from "../assets/custos.png";
+import rideeasy from "../assets/rideeasy.png";
 
 
 
 const works = [
   {
-    name: "EZHEDGEFUNDS",
-    description: "An investment web app",
-    stacks: "ReactJS Vite Node(expressJS) MySQL",
-    image: ez,
-    link: "https://user.ezhedgefunds.com/dashboard",
+    name: "SWIFTCONNECT",
+    description: "A Finance Web App",
+    stacks: "NextJS Vite Python(DJANGO) MySQL",
+    image: swift,
+    link: "https://swiftconnect-frontend.vercel.app/dashboard",
+  },
+   {
+    name: "CUSTOSDIRETRIZ",
+    description: "A Blockchain App for creating legal Agreements",
+    stacks: "NextJS Vite Python(DJANGO) MySQL",
+    image: custos,
+    link: "https://www.custosdiretriz.com",
+  },
+{
+    name: "RIDEEASY",
+    description: "A Bus Booking Web App",
+    stacks: "NextJS TailwindCSS Vite Typescript Firebase",
+    image: rideeasy,
+    link: "https://ride-easy-mobile.vercel.app",
   },
   {
     name: "MOVIEBOX",
