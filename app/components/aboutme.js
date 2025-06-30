@@ -9,13 +9,13 @@ export default function Aboutme({hideBtn}) {
           Hello, I’m Emmanuel!
         </p>
         <p className="text-[#ABB2BF] text-sm md:text-base">
-          I’m a self-taught fullstack website/web app developer based in Ibadan,
+          I’m a self-taught fullstack website/web app developer based in Lagos,
           Nigeria. I can develop responsive websites and web apps from scratch
           and raise them into modern user-friendly web experiences.
         </p>
         <p className="text-[#ABB2BF] text-sm md:text-base">
-          Transforming my creativity and knowledge into websites has been my
-          passion for over a year. I have been helping various clients to
+          Transforming my creativity and knowledge into websites has always been my
+          passion. I have been helping various clients to
           establish their presence online. I always strive to learn about the
           newest technologies and frameworks.
         </p>
