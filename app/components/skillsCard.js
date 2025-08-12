@@ -19,7 +19,7 @@ const SkillCard = () => {
       <div className="border h-fit w-full sm:w-1/2 lg:w-auto">
         <h1 className="border-b font-bold p-2">Tools</h1>
         <p className="text-sm text-[#ABB2BF] p-2">
-          VSCode, Git, Font-Awesome, Vercel, Netlify
+          VSCode, Git, Font-Awesome, Vercel, Netlify, Docker
         </p>
       </div>
       {/* Other */}
