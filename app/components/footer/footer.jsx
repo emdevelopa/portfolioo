@@ -38,7 +38,7 @@ export default function Footer() {
         </div>
       </div>
       <p className="text-[#ABB2BF] text-[14px] text-center mb-[4em]">
-        &copy; Copyright 2024. Made by Emmanuel
+        &copy; Copyright 2025. Made by Emmanuel
       </p>
     </section>
   );
