@@ -33,7 +33,7 @@ const SkillCard = () => {
       <div className="border h-fit w-full sm:w-1/2 lg:w-auto">
         <h1 className="border-b font-bold p-2">Frameworks</h1>
         <p className="text-sm text-[#ABB2BF] p-2">
-          ReactJS/NextJS, VueJS, Discord.js, Electron.js, ExpressJS, FastAPI
+          ReactJS/NextJS, VueJS, RemixJS, React Native, Discord.js, Electron.js, ExpressJS, FastAPI
         </p>
       </div>
     </section>
