@@ -52,7 +52,7 @@ const Projects = () => {
               I love <span className="text-white">shawties</span> &#128131;&#128131;&#128131;
             </h1>
             <h1 className="border p-2 w-fit">
-              I am still in <span className="text-white">college 🏫🏫🏫</span>
+              Graduating From <span className="text-white">University 🏫🏫🏫</span> Soon
             </h1>
             <h1 className="border p-2 w-fit">
               I am the <span className="text-white">last born</span>{" "}
