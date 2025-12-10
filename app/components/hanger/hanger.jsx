@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faWhatsapp, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const SocialHanger = () => {
   return (
@@ -20,10 +20,10 @@ const SocialHanger = () => {
           <FontAwesomeIcon icon={faXTwitter} />
         </a>
         <a
-          href="https://www.instagram.com/solodev999/"
+          href="https://wa.me/2348104515305"
           className="w-[2em] h-[2em] hover:border border-[#C778DD] rounded-[50%] p-1 flex justify-center items-center"
         >
-          <FontAwesomeIcon icon={faInstagram} />
+          <FontAwesomeIcon icon={faWhatsapp} />
         </a>
       </div>
     </section>
